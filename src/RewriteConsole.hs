@@ -1,4 +1,5 @@
 import Control.Monad
+import Control.Exception
 import System.IO
 import System.IO.Error
 import Data.List

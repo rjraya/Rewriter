@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/localhome/raya/.cabal/bin"
-libdir     = "/localhome/raya/.cabal/lib/x86_64-linux-ghc-8.0.2/Rewriter-0.1.0.0"
-dynlibdir  = "/localhome/raya/.cabal/lib/x86_64-linux-ghc-8.0.2"
-datadir    = "/localhome/raya/.cabal/share/x86_64-linux-ghc-8.0.2/Rewriter-0.1.0.0"
-libexecdir = "/localhome/raya/.cabal/libexec"
-sysconfdir = "/localhome/raya/.cabal/etc"
+bindir     = "/home/usuario/.cabal/bin"
+libdir     = "/home/usuario/.cabal/lib/x86_64-linux-ghc-8.0.2/Rewriter-0.1.0.0"
+dynlibdir  = "/home/usuario/.cabal/lib/x86_64-linux-ghc-8.0.2"
+datadir    = "/home/usuario/.cabal/share/x86_64-linux-ghc-8.0.2/Rewriter-0.1.0.0"
+libexecdir = "/home/usuario/.cabal/libexec"
+sysconfdir = "/home/usuario/.cabal/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "Rewriter_bindir") (\_ -> return bindir)
