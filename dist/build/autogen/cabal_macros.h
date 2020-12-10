@@ -35,19 +35,19 @@
   (major1) == 1 && (major2) <  3 || \
   (major1) == 1 && (major2) == 3 && (minor) <= 3)
 
-/* package mtl-2.2.2 */
-#define VERSION_mtl "2.2.2"
+/* package mtl-2.2.1 */
+#define VERSION_mtl "2.2.1"
 #define MIN_VERSION_mtl(major1,major2,minor) (\
   (major1) <  2 || \
   (major1) == 2 && (major2) <  2 || \
-  (major1) == 2 && (major2) == 2 && (minor) <= 2)
+  (major1) == 2 && (major2) == 2 && (minor) <= 1)
 
-/* package parsec-3.1.14.0 */
-#define VERSION_parsec "3.1.14.0"
+/* package parsec-3.1.11 */
+#define VERSION_parsec "3.1.11"
 #define MIN_VERSION_parsec(major1,major2,minor) (\
   (major1) <  3 || \
   (major1) == 3 && (major2) <  1 || \
-  (major1) == 3 && (major2) == 1 && (minor) <= 14)
+  (major1) == 3 && (major2) == 1 && (minor) <= 11)
 
 /* tool alex-3.2.3 */
 #define TOOL_VERSION_alex "3.2.3"
